@@ -11,7 +11,7 @@ export const socialsData = {
     stackOverflow: 'https://stackoverflow.com/users/',
     gitlab: 'https://gitlab.com/',
     youtube: 'https://youtube.com/',
-    discord: 'https://discord.com/',
+    discord: 'https://discord.com/jamesbn#8626',
     telegram: 'https://t.me/jamesbn1215',
     email: 'mailto: jamesbn1215@gmail.com',
     whatsapp: '+17828098550'
