@@ -65,9 +65,24 @@ function Projects() {
                                     image={project.image}
                                 />
                             ))}
+                        </div>
+                        <div style={{marginBottom: "48px"}} />
+                        <div className="projects--bodyContainer">
+                            {projectsData.slice(3, 6).map(project => (
+                                <SingleProject
+                                    theme={theme}
+                                    key={project.id}
+                                    id={project.id}
+                                    name={project.projectName}
+                                    desc={project.projectDesc}
+                                    tags={project.tags}
+                                    code={project.code}
+                                    demo={project.demo}
+                                    image={project.image}
+                                />
+                            ))}
                         </div> 
-
-                        {projectsData.length > 3 && (
+                        {/* {projectsData.length > 3 && (
                             <div className="projects--viewAll">
                                 <Link to="/projects">
                                     <button className={classes.viewAllBtn}>
@@ -76,7 +91,7 @@ function Projects() {
                                     </button>
                                 </Link>
                             </div>
-                        )}
+                        )} */}
                     </div>
                 </div>
             )}

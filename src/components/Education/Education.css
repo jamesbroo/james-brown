@@ -57,6 +57,7 @@
 
 .education-details{
     margin-left: 0.6rem;
+    width: inherit;
 }
 
 .education-details > h6 {
@@ -77,6 +78,33 @@
     font-size: 1.15rem;
     font-weight: 600;
 }
+
+.education-contents{
+    margin-left: 0.6rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.education-contents > h4 {
+    font-family: var(--primaryFont);
+    font-size: 1.225rem;
+    font-weight: 600;
+}
+
+.education-contents > h5 {
+    font-family: var(--primaryFont);
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.education-contents > h6 {
+    font-family: var(--primaryFont);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
 
 .education-image {
     box-sizing: border-box;
@@ -130,7 +158,7 @@
     .education-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        height: 160px;
     }
     .educard-img {
         border-radius: 50%;
@@ -152,6 +180,21 @@
     }
     
     .education-details > h5 {
+        font-size: 1.05rem;
+        line-height: 126%;
+    }
+
+    .education-details > h6 {
+        font-size: 0.85rem;
+        margin-bottom: 0.45rem;
+    }
+    
+    .education-contents > h4 {
+        font-size: 1.125rem;
+        line-height: 126%;
+    }
+    
+    .education-contents > h5 {
         font-size: 1.05rem;
         line-height: 126%;
     }

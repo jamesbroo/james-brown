@@ -1,6 +1,7 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "I'm an aspiring blockchain developer who has 4+ years experience in smart contract, full stack engineering, frontend and back-end application development.",
+    description2: "I have an abundance of experience in web development with a focus on Solidity, Web3, JavaScript, Typescript and React. Moreover, I have in-depth knowledge and relevant experience in distributed ledgers, blockchain security, architectures, standards and ecosystems.",
+    description3: "For recent years, I've collaborated with a variety of companies including startups and medium communities making me intimately familiar with all the aspects of the web life cycle from the initial architecture to final deployment.",
     image: 2
 }

@@ -33,7 +33,7 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
+    height: 150px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -57,6 +57,7 @@
 
 .experience-details {
     margin-left: 0.6rem;
+    width: inherit;
 }
 
 .experience-details > h6 {
@@ -73,6 +74,31 @@
 }
 
 .experience-details > h5 {
+    font-family: var(--primaryFont);
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.experience-contents {
+    margin-left: 0.6rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.experience-contents > h6 {
+    font-family: var(--primaryFont);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.experience-contents > h4 {
+    font-family: var(--primaryFont);
+    font-size: 1.225rem;
+    font-weight: 600;
+}
+
+.experience-contents > h5 {
     font-family: var(--primaryFont);
     font-size: 1.15rem;
     font-weight: 600;
@@ -135,7 +161,7 @@
     .experience-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        height: 200px;
     }
     .expcard-img {
         border-radius: 50%;

@@ -1,66 +1,68 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
+import one from '../assets/svg/projects/one.png'
+import two from '../assets/svg/projects/two.png'
+import three from '../assets/svg/projects/three.png'
+import four from '../assets/svg/projects/four.png'
+import five from '../assets/svg/projects/five.png'
+import six from '../assets/svg/projects/six.png'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+
+
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Paladin DAO',
+        projectDesc: 'Paladin DAO is an Ohm fork on the Bsc network backed by $BUSD',
+        tags: ['React', 'Solidity', 'GraphQL'],
+        code: 'https://github.com/jamesbwn/paladin-dao',
+        demo: 'https://www.paladindao.com/',
         image: one
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'SPYRIT | NFT Lanchpad & Staking',
+        projectDesc: 'This project is a decentralized cross-chain application that is based on Defi fundamentals',
+        tags: ['TypeScript', 'Tailwind CSS', 'NFT'],
+        code: 'https://github.com/jamesbwn/spyrit-frontend.git',
+        demo: 'https://spyritcoin.io/',
         image: two
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Ape2Earn Sale',
+        projectDesc: 'Ape 2 earn is a new variant of play 2 earn, users who have an Ape will be able to generate passive income via Staking.',
+        tags: ['Ethereum', 'OpenSea', 'Node'],
+        code: 'https://github.com/jamesbwn/ape-mint.git',
+        demo: 'https://ape2earn.com/#/mint',
         image: three
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Revolution DeFi',
+        projectDesc: 'Revolution Finance is transforming DeFi with the Revolt Autostaking Protocol (RAP) that will soon deliver the industry’s best sustainable APY.',
+        tags: ['React', 'Bootstrap', ],
+        code: 'https://github.com/jamesbwn/revo-titano.git',
+        demo: 'https://revolutiondefi.xyz/',
         image: four
     },
     {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'NFT Gaming DAO',
+        projectDesc: 'NFTGamingDAO is a decentralized protocol based on the token collateralized and backed by the P2E NFTs',
+        tags: ['React Native', 'Web3', 'NFT'],
+        code: 'https://github.com/jamesbwn/nftgm-dao/tree/main/nftgm-dao',
+        demo: 'https://www.nftgamingdao.com/',
         image: five
     },
     {
         id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Dragon Finance',
+        projectDesc: 'DGN is an algocoin which is designed to follow price of BNB with 100:1 ratio.',
+        tags: ['Next, Ether'],
+        code: 'https://github.com/jamesbwn/dgn-finance.git',
+        demo: 'https://dragonfinance.co/',
         image: six
     },
     {

@@ -7,6 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import {
     FaTwitter,
     FaLinkedinIn,
+    FaTelegram,
     FaGithub,
     FaYoutube,
     FaBloggerB,
@@ -176,7 +177,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='James'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +193,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='Jamesbn1215@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -303,17 +304,17 @@ function Contacts() {
                                 {contactsData.phone}
                             </p>
                         </a>
-                        <div className='personal-details'>
+                        {/* <div className='personal-details'>
                             <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
                             </div>
                             <p style={{ color: theme.tertiary }}>
                                 {contactsData.address}
                             </p>
-                        </div>
+                        </div> */}
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
+                            {/* {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
                                     target='_blank'
@@ -322,7 +323,7 @@ function Contacts() {
                                 >
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -343,7 +344,17 @@ function Contacts() {
                                     <FaLinkedinIn aria-label='LinkedIn' />
                                 </a>
                             )}
-                            {socialsData.instagram && (
+                            {socialsData.telegram && (
+                                <a
+                                    href={socialsData.telegram}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaTelegram aria-label='Telegram' />
+                                </a>
+                            )}
+                            {/* {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
                                     target='_blank'
@@ -352,8 +363,8 @@ function Contacts() {
                                 >
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
-                            )}
-                            {socialsData.medium && (
+                            )} */}
+                            {/* {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -362,8 +373,8 @@ function Contacts() {
                                 >
                                     <FaMediumM aria-label='Medium' />
                                 </a>
-                            )}
-                            {socialsData.blogger && (
+                            )} */}
+                            {/* {socialsData.blogger && (
                                 <a
                                     href={socialsData.blogger}
                                     target='_blank'
@@ -372,8 +383,8 @@ function Contacts() {
                                 >
                                     <FaBloggerB aria-label='Blogger' />
                                 </a>
-                            )}
-                            {socialsData.youtube && (
+                            )} */}
+                            {/* {socialsData.youtube && (
                                 <a
                                     href={socialsData.youtube}
                                     target='_blank'
@@ -382,8 +393,8 @@ function Contacts() {
                                 >
                                     <FaYoutube aria-label='YouTube' />
                                 </a>
-                            )}
-                            {socialsData.reddit && (
+                            )} */}
+                            {/* {socialsData.reddit && (
                                 <a
                                     href={socialsData.reddit}
                                     target='_blank'
@@ -392,8 +403,8 @@ function Contacts() {
                                 >
                                     <FaRedditAlien aria-label='Reddit' />
                                 </a>
-                            )}
-                            {socialsData.stackOverflow && (
+                            )} */}
+                            {/* {socialsData.stackOverflow && (
                                 <a
                                     href={socialsData.stackOverflow}
                                     target='_blank'
@@ -402,8 +413,8 @@ function Contacts() {
                                 >
                                     <FaStackOverflow aria-label='Stack Overflow' />
                                 </a>
-                            )}
-                            {socialsData.codepen && (
+                            )} */}
+                            {/* {socialsData.codepen && (
                                 <a
                                     href={socialsData.codepen}
                                     target='_blank'
@@ -422,7 +433,7 @@ function Contacts() {
                                 >
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
-                            )}
+                            )} */}
                         </div>
                     </div>
                 </div>

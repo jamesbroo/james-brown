@@ -9,11 +9,14 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
+    FaMailBulk,
     FaLinkedin,
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaDiscord,
+    FaTelegram,
+    FaWhatsapp,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -101,42 +104,55 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {/* {socialsData.email && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.email}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaMailBulk
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Mail'
+                                />
+                            </a>
+                        )} */}
+                        {socialsData.discord && (
+                            <a
+                                href={socialsData.discord}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaDiscord
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Discord'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.telegram && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.telegram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaTelegram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Telegram'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.whatsapp && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.whatsapp}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaWhatsapp
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='Whatsapp'
                                 />
                             </a>
                         )}
@@ -176,7 +192,18 @@ function Landing() {
                                     </Button>
                                 </a>
                             )}
-                            <NavLink
+                            {socialsData.email && (
+                                <a
+                                    href={socialsData.email}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <Button className={classes.contactBtn}>
+                                        Contact
+                                    </Button>
+                                </a>
+                            )}
+                            {/* <NavLink
                                 to='/#contacts'
                                 smooth={true}
                                 spy='true'
@@ -185,7 +212,8 @@ function Landing() {
                                 <Button className={classes.contactBtn}>
                                     Contact
                                 </Button>
-                            </NavLink>
+                            </NavLink> */}
+
                         </div>
                     </div>
                 </div>
