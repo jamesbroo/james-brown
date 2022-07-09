@@ -1,5 +1,5 @@
 import resume from '../assets/pdf/resume.pdf'
-import landImg from '../assets/png/landingImg.jpg'
+import landImg from '../assets/png/landingImg.png'
 
 export const headerData = {
     name: 'James Brown',
