@@ -1,8 +1,7 @@
 # James Portfolio 
 Blockchain | Full Stack Developer
 
-An aspiring blockchain developer that has 5+ years experience in smart contract, full stack engineering, frontend, backend and blockchain application development.
-
+An aspiring blockchain developer that has 5+ years experience in smart contract, full stack engineering, frontend, backend and blockchain application development. I have about 8+ years of experience in software development. 
 <!-- 
 <p align="center">
 <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/b26b0ebaaa13bec7fac796ee0b8296676df6ee0b/developer-portfolio/website.svg" alt="" width="450px"/>
